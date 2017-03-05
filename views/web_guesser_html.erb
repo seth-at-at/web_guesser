@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <style>
+    p, h1, h2, form, img {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body bgcolor=<%= background %>>
+    <h1 style="font-size: 50px; color: white; font-family: arial">Please guess a number</h1>
+    <h2 style="font-size: 50px; color: white; font-family: arial">What's your guess?</h1>
+    <form>
+      <input type='text' name='guess' size ='3px'/>
+      <input type='submit' value="Guess" size='5' bgcolor="black"/>
+    </form>
+      <p><img src = <%= gif %> ></p>
+      <h1 style="font-size: 80px; color: white; font-family: futura"> <%= message %> </h1>
+  </body>
+</html>
